@@ -9,18 +9,9 @@ import Header from '../../components/Sections/Header'
 
 export default function LangIndex({ language }) {
   const { t } = i18next;
-  const page = t('page');
-  const headerInputs = t('header')
   return (
     <>
-      <Page description={page.description} title={page.title}>
-        <Header inputs={headerInputs} />
-        <Layout>
-          <div>
-            {t('language')}: {t(language)} ({language})
-          </div>
-        </Layout>
-      </Page>
+      <Layout />
     </>
   )
 }

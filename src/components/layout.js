@@ -31,7 +31,6 @@ const Layout = function ({ children }) {
       </header>
       <header className="flex justify-center items-center">
         <div className="flex items-center">
-          <div className="mr-4">{t('header.selectLanguage.label')}</div>
           <LanguageMenu />
         </div>
         <main>{children}</main>
