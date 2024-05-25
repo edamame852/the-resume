@@ -1,18 +1,18 @@
+// src/pages/[lang]/index.js
 import i18next from 'i18next'
 import 'twin.macro'
-import Link from '../../components/link'
 import Layout from '../../components/layout'
 import { getAllLanguageSlugs, getLanguage } from '../../i18n'
-import Page from '../../components/Layout/Page'
-
-import Header from '../../components/Sections/Header'
+import Background from '../../components/Sections/Background';
 
 export default function LangIndex({ language }) {
   const { t } = i18next;
   return (
     <>
       <Layout />
+      <Background />
     </>
+
   )
 }
 

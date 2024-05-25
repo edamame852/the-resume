@@ -10,7 +10,7 @@ const LanguageMenu = () => {
     display: 'flex',
     justifyContent: 'right',
     alignItems: 'center',
-    height: '100vh',
+    height: '5vh',
   }
 
   return (
@@ -18,17 +18,17 @@ const LanguageMenu = () => {
       <div tw="flex items-center">
         <span tw="mr-2 font-sans">{t("header.selectLanguage.label")}</span>
         {languages.map((lang, index) => {
-          let langWithFlag;
+          let selectedLanguage;
           switch (lang) {
             case 'en':
-              langWithFlag = t("header.selectLanguage.english");
+              selectedLanguage = t("header.selectLanguage.english");
               break;
             case 'jp':
-              langWithFlag = t("header.selectLanguage.japanese");
+              selectedLanguage = t("header.selectLanguage.japanese");
               break;
             // Add more cases for other languages as needed
             default:
-              langWithFlag = t(lang);
+              selectedLanguage = t(lang);
           }
           return (
             <Link key={index} locale={lang}>
@@ -38,7 +38,7 @@ const LanguageMenu = () => {
                   i18next.language === lang && tw`text-purple-400 underline `,
                 ]}
               >
-                {t(langWithFlag)}
+                {t(selectedLanguage)}
               </a>
             </Link>
           )

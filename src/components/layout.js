@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import i18next from 'i18next'
 import 'twin.macro'
-import Link from './link'
 import LanguageMenu from './languageMenu'
 
 const Layout = function ({ children }) {
@@ -25,35 +24,17 @@ const Layout = function ({ children }) {
         <title>{t('title', { ns: 'meta' })}</title>
       </Head>
 
-      <header className="flex flex-col items-center justify-center h-screen">
-        <h1 tw="my-10 font-bold text-4xl">{t('title', { ns: 'meta' })}</h1>
-
-      </header>
-      <header className="flex justify-center items-center">
-        <div className="flex items-center">
+      <header className="flex items-center justify-between p-2">
+        <div style={{ height: '2vh' }}>
+          <h1 tw="font-bold text-xl md:text-2xl">{t('title', { ns: 'meta' })} </h1>
+        </div>
+        <div style={{ height: '6vh' }}>
           <LanguageMenu />
         </div>
-        <main>{children}</main>
       </header>
-
-      <ul>
-        {router.pathname !== '/[lang]' && (
-          <li>
-            <Link href="/">
-              <a>{t('backTo')} /</a>
-            </Link>
-          </li>
-        )}
-
-        {router.pathname !== '/404' && (
-          <li>
-            <Link href="/404">
-              <a>/404</a>
-            </Link>
-          </li>
-        )}
-      </ul>
+      <main className="w-full max-w-2xl">{children}</main>
     </>
   )
 }
+
 export default Layout
