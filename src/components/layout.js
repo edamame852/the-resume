@@ -24,11 +24,18 @@ const Layout = function ({ children }) {
         />{' '}
         <title>{t('title', { ns: 'meta' })}</title>
       </Head>
-      <LanguageMenu />
-      <header>
+
+      <header className="flex flex-col items-center justify-center h-screen">
         <h1 tw="my-10 font-bold text-4xl">{t('title', { ns: 'meta' })}</h1>
+
       </header>
-      <main>{children}</main>
+      <header className="flex justify-center items-center">
+        <div className="flex items-center">
+          <div className="mr-4">{t('header.selectLanguage.label')}</div>
+          <LanguageMenu />
+        </div>
+        <main>{children}</main>
+      </header>
 
       <ul>
         {router.pathname !== '/[lang]' && (

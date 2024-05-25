@@ -6,9 +6,22 @@ import Link from './link'
 const LanguageMenu = () => {
   const { t } = i18next
 
+
   return (
     <div tw="flex flex-wrap content-end text-gray-300">
       {languages.map((lang, index) => {
+        let langWithFlag;
+        switch (lang) {
+          case 'en':
+            langWithFlag = t("header.selectLanguage.english");
+            break;
+          case 'jp':
+            langWithFlag = t("header.selectLanguage.japanese");
+            break;
+          // Add more cases for other languages as needed
+          default:
+            langWithFlag = t(lang);
+        }
         return (
           <Link key={index} locale={lang}>
             <a
@@ -17,7 +30,7 @@ const LanguageMenu = () => {
                 i18next.language === lang && tw`text-purple-400 underline `,
               ]}
             >
-              {t(lang)}
+              {t(langWithFlag)}
             </a>
           </Link>
         )
