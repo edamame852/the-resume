@@ -1,11 +1,14 @@
-//Thanks Sling Academy
-
-
 import i18next from 'i18next';
 import backgroundImage from "../../assets/header-background.webp";
+import InstagramIcon from '../Icons/InstgramIcon';
 
 export default function Background() {
     const { t } = i18next;
+
+    const handleInstagramClick = () => {
+        window.open('https://www.instagram.com/miller_cyc/', '_blank');
+    };
+
     return (
         <div
             style={{
@@ -29,14 +32,14 @@ export default function Background() {
                     borderRadius: '10px',
                     maxWidth: '1000px',
                     display: 'flex',
-                    flexDirection: 'column', // Change to column layout
+                    flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
                     textAlign: 'center'
                 }}
             >
                 <h1 style={{ fontSize: 50, color: 'white', fontStyle: 'inherit' }}>{t("background.intro")}</h1>
-                <div style={{ fontSize: '1rem' }}> {/* Adjust font size for the rest of the text */}
+                <div style={{ fontSize: '1rem' }}>
                     <br />
                     <p style={{ fontSize: "0.9rem" }} className="text-stone-200 sm:text-base lg:text-md">
                         {t('background.description.entry1')}
@@ -54,6 +57,12 @@ export default function Background() {
                         {t('background.description.entry10')} <strong className="text-stone-100">{t('background.description.entry11')}</strong>.
                     </p>
                 </div>
+                <br />
+                <p style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+                    <a href="#" onClick={handleInstagramClick} style={{ cursor: 'pointer' }}>
+                        <InstagramIcon size={8} color='light-purple' />
+                    </a>
+                </p>
             </div>
         </div>
     );

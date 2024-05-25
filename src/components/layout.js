@@ -25,10 +25,10 @@ const Layout = function ({ children }) {
       </Head>
 
       <header className="flex items-center justify-between p-2">
-        <div style={{ height: '2vh' }}>
-          <h1 tw="font-bold text-xl md:text-2xl">{t('title', { ns: 'meta' })} </h1>
+        <div style={{ height: '5vh' }}>
+          <h1 style={{ fontSize: "1.15rem" }} tw="font-bold text-xl md:text-xl">{t('title', { ns: 'meta' })} </h1>
         </div>
-        <div style={{ height: '6vh' }}>
+        <div style={{ height: '5vh' }}>
           <LanguageMenu />
         </div>
       </header>

@@ -16,6 +16,7 @@ const LanguageMenu = () => {
   return (
     <div style={centeringStyles} className="text-gray-300">
       <div tw="flex items-center">
+        <span tw="mr-2 font-sans">{t("header.missingCountryFlag")}</span>
         <span tw="mr-2 font-sans">{t("header.selectLanguage.label")}</span>
         {languages.map((lang, index) => {
           let selectedLanguage;

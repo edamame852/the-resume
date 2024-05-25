@@ -4,7 +4,7 @@
     "description": "Example site built with Tim Baker's react resume template"
   },
   "header": {
-    "missingCountryFlag": "If the country flag emoji doesn't show up, install the plugin : ",
+    "missingCountryFlag": "If the country flag emoji doesn't show up, install the plugin ",
     "href": "Click Me",
     "selectLanguage": {
       "label": "Select Language:",
@@ -27,11 +27,5 @@
       "entry10": ", or scuba diving in",
       "entry11": "Japan or Taiwan"
     }
-  },
-  "site": "Site",
-  "backTo": "Back to",
-  "helloWorld": "Hello world!",
-  "language": "Language",
-  "de": "Deutsch",
-  "en": "English"
+  }
 }
