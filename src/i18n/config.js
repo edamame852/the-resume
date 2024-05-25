@@ -1,4 +1,4 @@
-export const languages = ['en', 'de']
+export const languages = ['en', 'jp']
 
 export const defaultLanguage = 'en'
 

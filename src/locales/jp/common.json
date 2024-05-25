@@ -1,0 +1,24 @@
+{
+  "page": {
+    "title": "miltons website",
+    "description": "Example site built with Tim Baker's react resume template"
+  },
+  "header": {
+    "columnA": "が",
+    "columnB": "が",
+    "columnC": "が",
+    "missingCountryFlag": "国旗の絵文字が表示されない場合は、ここを押してしてください： ",
+    "href": "ここ",
+    "selectLanguage": {
+      "label": "言語選択:",
+      "english": "英語 🇺🇸",
+      "japanese": "日本語 🇯🇵"
+    }
+  },
+  "site": "Seite",
+  "backTo": "Zurück zu",
+  "helloWorld": "Hallo Welt!",
+  "language": "Sprache",
+  "de": "Deutsch",
+  "en": "English"
+}
