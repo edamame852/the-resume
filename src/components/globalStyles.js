@@ -26,7 +26,15 @@ const CustomStyles = createGlobalStyle`
 
   th {
     font-weight: 700;
-  }`;
+  }
+  
+  
+  .container{
+    display:flex;
+  }
+  
+  
+  `;
 
 const GlobalStyles = () => (
   <>

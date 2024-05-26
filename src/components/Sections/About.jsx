@@ -44,6 +44,10 @@ export default function About() {
                         alt="Profile Picture"
                     />
                 </div>
+                <div className='container'>
+                    <div className='item item-1'>Item 1</div>
+                    <div className='item item-2'>Item 2</div>
+                </div>
             </div>
             <br />
         </>
