@@ -2,18 +2,15 @@ import { createGlobalStyle } from 'styled-components'
 import tw, { theme, GlobalStyles as BaseStyles } from 'twin.macro'
 
 const CustomStyles = createGlobalStyle`
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  #__next {
-    height: 100%;
-    width: 100%;
-    display: flex; /* Add this line */
-    flex-direction: column; /* Add this line */
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    height: 100vh;
   }
 
   body {
@@ -21,24 +18,15 @@ const CustomStyles = createGlobalStyle`
     ${tw`antialiased`}
   }
 
-  a,
-  .clickable {
-    color: ${theme`colors.purple.500`};
+  td,
+  th {
+    padding: 4px 8px 4px 4px;
+    text-align: left;
   }
 
-  a:hover,
-  .clickable:hover {
-    color: ${theme`colors.purple.400`};
-  }
-
-  body > div {
-    ${tw`p-2 flex-1`} /* Change this line */
-  }
-
-  h2 {
-    ${tw`text-2xl font-bold mt-10 mb-2 border-b-2 border-b-purple-500`}
-  }
-`;
+  th {
+    font-weight: 700;
+  }`;
 
 const GlobalStyles = () => (
   <>

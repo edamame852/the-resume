@@ -1,4 +1,7 @@
 {
+  "hero": {
+    "name": "Hi"
+  },
   "page": {
     "title": "miltons website",
     "description": "Example site built with Tim Baker's react resume template"

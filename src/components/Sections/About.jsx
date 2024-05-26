@@ -53,38 +53,6 @@ export default function About() {
             </div>
         </>
 
-
-
-        /* // This is a failed attempt
-        // <div className='mx-auto max-w-screen-lg'>
-        //     <div className='flex flex-col md:flex-row'>
-        //         <div className='md:w-1/2'>
-        //             <div */
-        //                 style={{
-        //                     backgroundImage: `url(${backgroundImage.src})`,
-        //                     backgroundPosition: 'center',
-        //                     backgroundSize: 'cover',
-        //                     backgroundRepeat: 'no-repeat',
-        //                     width: '100%',
-        //                     height: '500px', // Adjust the height as needed
-        //                 }}
-        //             ></div>
-        //         </div>
-        //         <div className='md:w-1/2 flex flex-col gap-y-6 md:ml-4'>
-        //             <div className='flex flex-col gap-y-2'>
-        //                 <h2 className='text-2xl font-bold text-white'>{t('about.aboutMe')}</h2>
-        //                 <p className='prose prose-sm text-gray-300 sm:prose-base'>{t('about.description')}</p>
-        //             </div>
-        //             {aboutItems.map((item, index) => (
-        //                 <div key={index} className='flex items-center gap-x-2 text-gray-300'>
-        //                     <item.Icon className='w-5 h-5' />
-        //                     <span>{item.label}:</span>
-        //                     <span>{item.text}</span>
-        //                 </div>
-        //             ))}
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
 About.displayName = 'About';
