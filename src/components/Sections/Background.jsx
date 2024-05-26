@@ -57,10 +57,10 @@ export default function Background() {
                     textAlign: 'center'
                 }}
             >
-                <h1 style={{ fontSize: 50, color: 'white', fontStyle: 'inherit' }}>{t("background.intro")}</h1>
+                <h1 style={{ fontSize: 60, color: 'white', fontStyle: 'inherit', fontFamily: 'sans-serif', fontWeight: 'bold' }}>{t("background.intro")}</h1>
                 <div style={{ fontSize: '1rem' }}>
                     <br />
-                    <p style={{ fontSize: paragraphSize }} className="text-stone-200 sm:text-base lg:text-md">
+                    <p style={{ fontSize: paragraphSize, fontFamily: 'sans-serif' }} className="text-stone-200 sm:text-base lg:text-md">
                         {t('background.description.entry1')}
                         <strong className="text-stone-50 underline">{t('background.description.entry2')}</strong>
                         {t('background.description.entry3')}
@@ -68,7 +68,7 @@ export default function Background() {
                         {t('background.description.entry5')}
                     </p>
                     <br />
-                    <p style={{ fontSize: paragraphSize }} className="text-stone-200 sm:text-base lg:text-lg">
+                    <p style={{ fontSize: paragraphSize, fontFamily: 'sans-serif' }} className="text-stone-200 sm:text-base lg:text-lg">
                         {t('background.description.entry6')}
                         <strong className="text-stone-100">{t('background.description.entry7')}</strong>
                         {t('background.description.entry8')}
@@ -79,7 +79,7 @@ export default function Background() {
                 <br />
                 <p style={{ display: 'flex', justifyContent: 'center', width: '100%', flexDirection: 'row', alignItems: 'center' }}>
                     <a href="#" onClick={handleInstagramClick} style={{ cursor: 'pointer' }}>
-                        <InstagramIcon size={iconSize} color='light-purple' />
+                        <InstagramIcon size={iconSize} style={{ color: 'purple' }} />
                     </a>
                     <a href="#" onClick={handleLinkedinIconClick} style={{ cursor: 'pointer' }}>
                         <LinkedinIcon size={iconSize} style={{ color: '#0A66C2' }} />

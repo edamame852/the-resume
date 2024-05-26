@@ -57,32 +57,32 @@ export const SectionId = {
 /**
  * Hero section
  */
-export const heroData = {
-  imageSrc: heroImage,
-  name: `My name is Milton Chow.`,
-  description: (
-    <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Hi I'm Milton Chow <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Société Générale</strong> as a front office automation developer helping
-        to build internal web applications, python solutions, and automative CICD pipelines.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me studying <strong className="text-stone-100">Japanese</strong>, or{' '}
-        <strong className="text-stone-100">snowboarding</strong>, or scuba diving in{' '}
-        <strong className="text-stone-100"> Japan or Taiwan</strong>.
-      </p>
-    </>
-  ),
-  actions: [
-    {
-      href: 'https://docs.google.com/document/d/1a6TKTO8iEPA03VYfYEwXsmwIIETobmPR98sWrw08ZGg/edit?usp=sharing',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    }
-  ],
-};
+// export const heroData = {
+//   imageSrc: heroImage,
+//   name: `My name is Milton Chow.`,
+//   description: (
+//     <>
+//       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+//         Hi I'm Milton Chow <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+//         at <strong className="text-stone-100">Société Générale</strong> as a front office automation developer helping
+//         to build internal web applications, python solutions, and automative CICD pipelines.
+//       </p>
+//       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+//         In my free time time, you can catch me studying <strong className="text-stone-100">Japanese</strong>, or{' '}
+//         <strong className="text-stone-100">snowboarding</strong>, or scuba diving in{' '}
+//         <strong className="text-stone-100"> Japan or Taiwan</strong>.
+//       </p>
+//     </>
+//   ),
+//   actions: [
+//     {
+//       href: 'https://docs.google.com/document/d/1a6TKTO8iEPA03VYfYEwXsmwIIETobmPR98sWrw08ZGg/edit?usp=sharing',
+//       text: 'Resume',
+//       primary: true,
+//       Icon: ArrowDownTrayIcon,
+//     }
+//   ],
+// };
 
 /**
  * About section

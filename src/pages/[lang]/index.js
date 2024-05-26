@@ -13,8 +13,8 @@ export default function LangIndex({ language }) {
   return (
     <Page description={t("page.description")} title={t("page.title")}>
       <Layout />
-      {/* <Hero /> */}
       <Background />
+      <About />
     </Page>
 
 
