@@ -48,7 +48,7 @@ export default function Background() {
                 style={{
                     backgroundColor: 'rgba(0, 0, 0, 0.5)',
                     padding: '2rem',
-                    borderRadius: '10px',
+                    borderRadius: '50px',
                     maxWidth: '1000px',
                     display: 'flex',
                     flexDirection: 'column',

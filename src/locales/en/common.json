@@ -4,8 +4,11 @@
     "description": "Example site built with Tim Baker's react resume template"
   },
   "header": {
-    "missingCountryFlag": "If the country flag emoji doesn't show up, install the plugin ",
-    "href": "Click Me",
+    "missingCountryFlag": "If country flag emojis did not show up, install the plugin on ",
+    "href": {
+      "ie": "Edge",
+      "chrome": "Chrome"
+    },
     "selectLanguage": {
       "label": "Select Language:",
       "english": "English 🇺🇸",
@@ -29,6 +32,29 @@
     },
     "hero": {
       "resume": "Resume"
+    }
+  },
+  "about": {
+    "aboutMe": "About me",
+    "description": "I have around 3 years of experience being a software developer and I'm seeking for oppotorunities on being a full stack developer/ dev ops. Currently I'm most comfortable with developing software in Python",
+    "aboutItems": {
+      "text": {
+        "location": "Hong Kong SAR",
+        "nationality": "Hong Kong, Taiwan",
+        "interests": "Snowboarding, Diving, Coding",
+        "undergrad": "Texas A&M University",
+        "masters": "HKUST",
+        "employment": "Société Générale Group"
+      },
+      "label": {
+        "location": "location",
+        "age": "age",
+        "nationality": "nationality",
+        "interests": "interests",
+        "undergrad": "BSc. undergrad",
+        "masters": "MSc. masters",
+        "employment": "employment"
+      }
     }
   }
 }

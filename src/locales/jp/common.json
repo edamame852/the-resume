@@ -5,7 +5,10 @@
   },
   "header": {
     "missingCountryFlag": "国旗の絵文字が表示されない場合は、ここを押してしてください： ",
-    "href": "ここ",
+    "href": {
+      "ie": "エッジ",
+      "chrome": "クローム"
+    },
     "selectLanguage": {
       "label": "言語選択:",
       "english": "英語 🇺🇸",
@@ -29,6 +32,29 @@
     },
     "hero": {
       "resume": "履歴書"
+    }
+  },
+  "about": {
+    "aboutMe": "自己紹介",
+    "description": "ソフトウェア開発者として約3年の経験があり、フルスタック開発者/開発オペレーションの機会を求めています。現在、Pythonでのソフトウェア開発を最も得意としています。",
+    "aboutItems": {
+      "text": {
+        "location": "香港 (ホンコン)",
+        "nationality": "ホンコン人, 台湾人",
+        "interests": "スノーボード、もぐる、コーディング",
+        "undergrad": "テキサスA&M大学 (アメリカ)",
+        "masters": "香港科技大学(ホンコンかぎだいがく)",
+        "employment": "Société Générale (ソシエテ ジェネラル)"
+      },
+      "label": {
+        "location": "居住地",
+        "age": "年齢",
+        "nationality": "国籍",
+        "interests": "興味",
+        "undergrad": "大学",
+        "masters": "修士",
+        "employment": "雇用会社"
+      }
     }
   }
 }
