@@ -22,4 +22,5 @@ const InstagramIcon = memo(({ size = 128, color = 'currentColor', ...props }) =>
     </Icon>
 ));
 
+InstagramIcon.displayName = "InstagramIcon"
 export default InstagramIcon;

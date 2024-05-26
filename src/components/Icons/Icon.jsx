@@ -14,4 +14,5 @@ const Icon = memo(({ children, className, svgRef, transform, ...props }) => (
     </svg>
 ));
 
+Icon.displayName = "Icon"
 export default Icon;

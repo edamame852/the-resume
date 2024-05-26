@@ -11,6 +11,7 @@ export default function LangIndex({ language }) {
     <>
       <Layout />
       <Background />
+      {/* <About /> */}
     </>
 
   )
