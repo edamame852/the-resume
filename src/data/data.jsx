@@ -169,7 +169,7 @@ export const skills = [
       },
       {
         name: 'Swift',
-        level: 3,
+        level: 10,
       },
     ],
   },
