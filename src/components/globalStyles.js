@@ -29,11 +29,6 @@ const CustomStyles = createGlobalStyle`
   }
   
   
-  .container{
-    display:flex;
-  }
-  
-  
   `;
 
 const GlobalStyles = () => (

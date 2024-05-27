@@ -13,6 +13,7 @@ import { memo } from 'react';
 import Section from '../Layout/Section';
 
 import profilePic from "../../assets/profilePic.jpg";
+import DownloadIcon from '../Icons/DownloadIcon';
 
 export default function About() {
     const profileImageSrc = profilePic; // refactoring description and aboutItems
@@ -32,25 +33,22 @@ export default function About() {
         },
     ];
     return (
-        <>
-            <br />
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <div style={{ borderRadius: '30%', overflow: 'hidden' }}>
-                    <Image
-                        src="/profilePic.jpg"
-                        loading="lazy"
-                        width="200"
-                        height="200"
-                        alt="Profile Picture"
-                    />
+        <section className='bg-neutral-800 px-4 py-16 md:py-24 lg:px-8'>
+            <div className='mx-auto max-w-screen-lg'>
+                <div className='grid grid-cols-1 gap-y-4 md:grid-cols-4'>
+
+                    <div className='col-span-1 flex justify-center md:justify-start'>{/* This is the photos section */}
+                        <div className='relative h-24 w-24 overflow-hidden rounded-xl md:h-32 md:w-32'>
+                            <Image src={profilePic} />
+                        </div>
+                    </div>
+
                 </div>
-                <div className='container'>
-                    <div className='item item-1'>Item 1</div>
-                    <div className='item item-2'>Item 2</div>
-                </div>
+
+
             </div>
-            <br />
-        </>
+        </section>
+
     );
 }
 About.displayName = 'About';
