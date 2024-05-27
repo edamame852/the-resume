@@ -35,6 +35,11 @@ body {
   background-color: #fb7185;
 }
 
+.ml-auto {
+  flex-grow: 1;
+}
+
+
 /* Starting from this point on, everything will be from the-website */
 .prose {
   color: var(--tw-prose-body);

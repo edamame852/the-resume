@@ -50,13 +50,13 @@
         "employment": "Société Générale Group"
       },
       "label": {
-        "location": "location",
-        "age": "age",
-        "nationality": "nationality",
-        "interests": "interests",
+        "location": "Location",
+        "age": "Age",
+        "nationality": "Nationality",
+        "interests": "Interests",
         "undergrad": "BSc. undergrad",
         "masters": "MSc. masters",
-        "employment": "employment"
+        "employment": "Employment"
       }
     }
   }

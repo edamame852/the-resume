@@ -24,14 +24,14 @@ const Layout = function ({ children }) {
         <title>{t('title', { ns: 'meta' })}</title>
       </Head>
 
-      <header className="flex items-center justify-between p-2">
+      <header className="flex items-center justify-between p-2" style={{ height: '16vh' }}>
         <div style={{ height: '5vh' }}>
-          <h1 style={{ fontSize: "1.15rem" }} tw="font-bold text-xl md:text-xl">{t('title', { ns: 'meta' })} </h1>
+          <h1 style={{ fontSize: "1.1rem", fontFamily: "cursive", color: "white" }} tw="font-bold text-xl md:text-xl">{t('title', { ns: 'meta' })} </h1>
         </div>
-        <div style={{ height: '5vh' }}>
+        <div className="ml-auto" style={{ height: '5vh' }}>
           <LanguageMenu />
         </div>
-      </header>
+      </header >
       <main className="w-full max-w-2xl">{children}</main>
     </>
   )
