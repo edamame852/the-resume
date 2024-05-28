@@ -536,7 +536,7 @@ body {
 }
 
 .prose-sm {
-  font-size: .875rem;
+  font-size: 1rem;
   line-height: 1.7142857
 }
 
@@ -930,7 +930,7 @@ body {
 }
 
 .h-24 {
-  height: 8rem
+  height: 10rem
 }
 
 .h-3 {
@@ -979,7 +979,7 @@ body {
 }
 
 .w-24 {
-  width: 8rem
+  width: 10rem
 }
 
 .w-3 {
@@ -1324,6 +1324,11 @@ body {
   background-color: hsla(0, 0%, 9%, .5)
 }
 
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: #24aae3;
+}
+
 .bg-orange-400 {
   --tw-bg-opacity: 1;
   background-color: #fb923c;
@@ -1467,7 +1472,7 @@ body {
 }
 
 .text-4xl {
-  font-size: 2.25rem;
+  font-size: 2.1rem;
   line-height: 2.5rem
 }
 
@@ -1482,7 +1487,7 @@ body {
 }
 
 .text-sm {
-  font-size: .875rem;
+  font-size: 0.9rem;
   line-height: 1.25rem
 }
 
@@ -1784,8 +1789,8 @@ th {
 
 @media (min-width: 640px) {
   .sm\:prose-base {
-    font-size: 1rem;
-    line-height: 1.75
+    font-size: 1.25rem;
+    line-height: 1.6
   }
 
   .sm\:prose-base :where(p):not(:where([class~=not-prose], [class~=not-prose] *)) {
