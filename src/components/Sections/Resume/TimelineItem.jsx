@@ -1,6 +1,7 @@
 import { memo } from 'react';
 
 // import { TimelineItem } from '../../../data/dataDef';
+import i18next from 'i18next';
 
 const TimelineItem = memo(({ item }) => {
   const { title, date, location, content } = item;
@@ -14,7 +15,10 @@ const TimelineItem = memo(({ item }) => {
           <span className="flex-1 text-sm sm:flex-none">{date}</span>
         </div>
       </div>
-      {content}
+      <p>
+        {content}
+      </p>
+
     </div>
   );
 });

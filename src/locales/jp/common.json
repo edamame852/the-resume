@@ -59,5 +59,69 @@
         "employment": "雇用会社"
       }
     }
+  },
+  "resume": {
+    "education": {
+      "first": {
+        "date": "2023年12月卒業",
+        "location": "香港科技大学，香港",
+        "title": "金融数学修士",
+        "content": "理論的な計量数学の理論、ソフトウェアの開発、金融商品の研究を中心に行います。"
+      },
+      "second": {
+        "date": "2020年12月卒業",
+        "location": "テキサスA&M大学（米国テキサス州）",
+        "title": "原子力工学学士",
+        "content": "エンジニアリング"
+      }
+    },
+    "experience": {
+      "first": {
+        "date": "",
+        "location": "",
+        "title": "",
+        "content": ""
+      },
+      "second": {
+        "date": "",
+        "location": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "skills": {
+      "languages": {
+        "color": {},
+        "first": {},
+        "second": {},
+        "third": {},
+        "fourth": {}
+      },
+      "frontend": {
+        "color": {},
+        "first": {},
+        "second": {},
+        "third": {},
+        "fourth": {},
+        "fifth": {}
+      },
+      "backend": {
+        "color": {},
+        "first": {},
+        "second": {}
+      },
+      "python": {
+        "color": {},
+        "first": {},
+        "second": {}
+      },
+      "devOps": {
+        "color": {},
+        "first": {},
+        "second": {},
+        "third": {},
+        "fourth": {}
+      }
+    }
   }
 }
