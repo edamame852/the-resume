@@ -92,6 +92,8 @@
       }
     },
     "skills": {
+      "name": "Skills",
+      "content": "These are my following skills that I've acquired over the years",
       "languages": {
         "color": {},
         "first": {},

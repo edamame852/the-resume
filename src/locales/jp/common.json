@@ -92,6 +92,8 @@
       }
     },
     "skills": {
+      "name": "スキル",
+      "content": "以下は、長年かけて身につけたスキルです。",
       "languages": {
         "color": {},
         "first": {},

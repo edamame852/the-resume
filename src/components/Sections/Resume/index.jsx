@@ -69,6 +69,10 @@ export default function Resume() {
           level: 9,
         },
         {
+          name: 'Taiwanese',
+          level: 5,
+        },
+        {
           name: 'Japanese',
           level: 6,
         },
@@ -79,7 +83,19 @@ export default function Resume() {
       skills: [
         {
           name: 'React',
-          level: 7,
+          level: 6,
+        },
+        {
+          name: 'Nextjs',
+          level: 6,
+        },
+        {
+          name: 'Redux',
+          level: 6,
+        },
+        {
+          name: 'i18next',
+          level: 6,
         },
         {
           name: 'Typescript',
@@ -91,16 +107,12 @@ export default function Resume() {
       name: 'Backend development',
       skills: [
         {
-          name: 'Node.js',
-          level: 8,
+          name: 'Java',
+          level: 6,
         },
         {
-          name: 'Rust',
-          level: 5,
-        },
-        {
-          name: 'Golang',
-          level: 4,
+          name: 'Springboot',
+          level: 6,
         },
       ],
     },
@@ -109,15 +121,27 @@ export default function Resume() {
       skills: [
         {
           name: 'Pypi releases',
-          level: 9,
+          level: 8,
         },
         {
-          name: 'Flutter',
-          level: 4,
+          name: 'logger',
+          level: 5,
         },
         {
-          name: 'Swift',
-          level: 10,
+          name: 'Pandas',
+          level: 8,
+        },
+        {
+          name: 'poetry',
+          level: 7,
+        },
+        {
+          name: 'pytest',
+          level: 7,
+        },
+        {
+          name: 'tox',
+          level: 7,
         },
       ],
     },
@@ -125,16 +149,37 @@ export default function Resume() {
       name: 'DevOps',
       skills: [
         {
-          name: 'Pypi releases',
+          name: 'Github Action',
           level: 9,
         },
         {
-          name: 'Flutter',
-          level: 4,
+          name: 'Jenkins',
+          level: 7,
         },
         {
-          name: 'Swift',
-          level: 10,
+          name: 'Docker',
+          level: 6,
+        },
+      ],
+    },
+    {
+      name: 'Life',
+      skills: [
+        {
+          name: 'Snowboarding',
+          level: 7,
+        },
+        {
+          name: 'Cooking',
+          level: 7,
+        },
+        {
+          name: 'Diving',
+          level: 8,
+        },
+        {
+          name: <a href="http://www.google.com">{"Auto AV systems (Click me!)"}</a>,
+          level: 8,
         },
       ],
     },
@@ -156,8 +201,8 @@ export default function Resume() {
               <TimelineItem item={item} key={`${item.title}-${index}`} />
             ))}
           </ResumeSection>
-          <ResumeSection title="Skills">
-            <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
+          <ResumeSection title={skills_section.name}>
+            <p className="pb-8">{skills_section.content}</p>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               {skills.map((skillgroup, index) => (
                 <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
