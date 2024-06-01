@@ -9,11 +9,10 @@ import {
 import classNames from 'classnames';
 import Image from 'next/image';
 import i18next from 'i18next';
-import { memo } from 'react';
+
 import Section from '../Layout/Section';
 
 import profilePic from "../../assets/profilePic.jpg";
-import DownloadIcon from '../Icons/DownloadIcon';
 
 export default function About() {
     const profileImageSrc = profilePic; // refactoring description and aboutItems

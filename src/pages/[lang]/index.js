@@ -6,14 +6,15 @@ import { getAllLanguageSlugs, getLanguage } from '../../i18n'
 import Background from '../../components/Sections/Background';
 import About from '../../components/Sections/About';
 import Page from '../../components/Layout/Page';
-import Hero from '../../components/Sections/Hero';
 import Resume from '../../components/Sections/Resume';
+import Header from '../../components/Sections/Header';
 
 export default function LangIndex({ language }) {
   const { t } = i18next;
   return (
     <Page description={t("page.description")} title={t("page.title")}>
       <Layout />
+      <Header />
       <Background />
       <About />
       <Resume />
