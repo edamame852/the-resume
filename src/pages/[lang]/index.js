@@ -13,7 +13,7 @@ export default function LangIndex({ language }) {
   const { t } = i18next;
   return (
     <Page description={t("page.description")} title={t("page.title")}>
-      <Layout />
+      {/* <Layout /> */}
       <Header />
       <Background />
       <About />

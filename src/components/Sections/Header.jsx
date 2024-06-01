@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import i18next from 'i18next';
+import LanguageMenu from '../languageMenu';
 
 class Header extends Component {
   constructor(props) {
@@ -48,10 +49,10 @@ class Header extends Component {
             <span className="bar"></span>
             <span className="bar"></span>
           </a>
+          <br />
           <div className="navbar-links">
             <ul>
-              <li>Hello 1</li>
-              <li>Hello 2</li>
+              <li><LanguageMenu /></li>
             </ul>
           </div>
         </nav>
