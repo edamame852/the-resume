@@ -10,6 +10,10 @@ import i18next from 'i18next';
 export default function Resume() {
   const { t } = i18next;
   const education_section = t('resume.education');
+  const experience_section = t('resume.experience');
+  const skills_section = t('resume.skills');
+
+  // function generateArray()
 
   // Education Section
   const education = [
@@ -17,8 +21,7 @@ export default function Resume() {
       date: education_section.first.date,
       location: education_section.first.location,
       title: education_section.first.title,
-      // content: <p>{education_section.first.content}</p>
-      content: education_section.first.content
+      content: <p>{education_section.first.content}</p>
     },
     {
       date: education_section.second.date,
@@ -31,24 +34,18 @@ export default function Resume() {
   // Experience Section
   const experience = [
     {
-      date: 'March 2010 - Present',
-      location: 'Awesome Development Company',
-      title: 'Senior UX Engineer',
-      content: (
-        <p>
-          Describe work, special projects, notable achievements, what technologies you have been working with, and
-          anything else that would be useful for an employer to know.
-        </p>
-      ),
+      date: experience_section.first.date,
+      location: experience_section.first.location,
+      title: experience_section.first.title,
+      content: <p>{experience_section.first.content}</p>,
     },
     {
-      date: 'March 2007 - February 2010',
-      location: 'Garage Startup Studio',
-      title: 'Junior bug fixer',
+      date: experience_section.second.date,
+      location: experience_section.second.location,
+      title: experience_section.second.title,
       content: (
         <p>
-          Describe work, special projects, notable achievements, what technologies you have been working with, and
-          anything else that would be useful for an employer to know.
+          {experience_section.second.content}
         </p>
       ),
     },
@@ -148,13 +145,13 @@ export default function Resume() {
     <>
       <Section className="bg-neutral-100" sectionId="resume">
         <div className="flex flex-col divide-y-2 divide-neutral-300">
-          <ResumeSection title="Education">
+          <ResumeSection title={education_section.name}>
             {education.map((item, index) => (
               <TimelineItem item={item} key={`${item.title}-${index}`} />
             ))}
 
           </ResumeSection>
-          <ResumeSection title="Work">
+          <ResumeSection title={experience_section.name}>
             {experience.map((item, index) => (
               <TimelineItem item={item} key={`${item.title}-${index}`} />
             ))}

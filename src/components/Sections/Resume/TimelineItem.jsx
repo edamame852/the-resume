@@ -15,9 +15,7 @@ const TimelineItem = memo(({ item }) => {
           <span className="flex-1 text-sm sm:flex-none">{date}</span>
         </div>
       </div>
-      <p>
-        {content}
-      </p>
+      {content}
 
     </div>
   );

@@ -62,6 +62,7 @@
   },
   "resume": {
     "education": {
+      "name": "Education",
       "first": {
         "date": "Graduated Dec 2023",
         "location": "HKUST, Hong Kong",
@@ -72,21 +73,22 @@
         "date": "Graduated Dec 2020",
         "location": "Texas A&M University, Texas, USA",
         "title": "Bachelor in Nuclear Engineering",
-        "content": "Engineering"
+        "content": "My focuses are on nuclear safety, numerical calculations and theorical nuclear physics"
       }
     },
     "experience": {
+      "name": "Experience",
       "first": {
-        "date": "",
-        "location": "",
-        "title": "",
-        "content": ""
+        "date": "June 2023 - Present",
+        "location": "Société Générale",
+        "title": "Front Office Automation Developer",
+        "content": "Upkeep and developer full stack projects whilst making enhancement to our CICD pipelines and architectures"
       },
       "second": {
-        "date": "",
-        "location": "",
-        "title": "",
-        "content": ""
+        "date": "July 2022 - Oct 2022",
+        "location": "Apple Inc.",
+        "title": "Quality Engineer (QA/QE I)",
+        "content": "Performing QA Testing for AI/ML Pipelines"
       }
     },
     "skills": {

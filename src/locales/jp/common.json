@@ -62,6 +62,7 @@
   },
   "resume": {
     "education": {
+      "name": "教育",
       "first": {
         "date": "2023年12月卒業",
         "location": "香港科技大学，香港",
@@ -70,23 +71,24 @@
       },
       "second": {
         "date": "2020年12月卒業",
-        "location": "テキサスA&M大学（米国テキサス州）",
+        "location": "テキサスA&M大学（米国 • テキサス州）",
         "title": "原子力工学学士",
-        "content": "エンジニアリング"
+        "content": "私の専門は、原子力安全、数値計算、理論核物理学です"
       }
     },
     "experience": {
+      "name": "仕事経験",
       "first": {
-        "date": "",
-        "location": "",
-        "title": "",
-        "content": ""
+        "date": "2023年6月～現在",
+        "location": "ソシエテ ジェネラル",
+        "title": "フロント・オフィス・オートメーション開発者",
+        "content": "CICDパイプラインとアーキテクチャを強化しながら、フルスタックプロジェクトを維持・開発する。"
       },
       "second": {
-        "date": "",
-        "location": "",
-        "title": "",
-        "content": ""
+        "date": "2022年7月～2022年10月",
+        "location": "アップル社",
+        "title": "品質エンジニア (QA/QE I)",
+        "content": "AI/MLパイプラインのQAテストの実施"
       }
     },
     "skills": {
