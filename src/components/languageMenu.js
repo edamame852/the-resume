@@ -44,17 +44,29 @@ const LanguageMenu = () => {
             )
           })}
         </div>
-        <div tw="mt-2 font-sans">
-          <span>{t("header.missingCountryFlag")}
-            <a css={[
-              tw`text-base m-0.5 p-0.5 cursor-pointer`,
-              tw`text-blue-400 underline `,
-            ]} href='https://microsoftedge.microsoft.com/addons/detail/country-flag-fixer/nfkjcekokjacfnambbbdidjpgogkppmm'>{t("header.href.ie")}</a> /
-            <a css={[
-              tw`text-base m-0.5 p-0.5 cursor-pointer`,
-              tw`text-red-400 underline `,
-            ]} href='https://chromewebstore.google.com/detail/country-flag-fixer/jhcpefjbhmbkgjgipkhndplfbhdecijh'> {t("header.href.chrome")}</a>
-          </span>
+        <div tw="mt-2 font-sans flex items-center">
+          <span>{t("header.missingCountryFlag")}<br /></span>
+          <div tw="flex">
+            <a
+              css={[
+                tw`text-base m-0.5 p-0.5 cursor-pointer`,
+                tw`text-blue-400 underline`,
+              ]}
+              href="https://microsoftedge.microsoft.com/addons/detail/country-flag-fixer/nfkjcekokjacfnambbbdidjpgogkppmm"
+            >
+              {t("header.href.ie")}
+            </a>
+            /
+            <a
+              css={[
+                tw`text-base m-0.5 p-0.5 cursor-pointer`,
+                tw`text-red-400 underline`,
+              ]}
+              href="https://chromewebstore.google.com/detail/country-flag-fixer/jhcpefjbhmbkgjgipkhndplfbhdecijh"
+            >
+              {t("header.href.chrome")}
+            </a>
+          </div>
         </div>
         <br />
       </div>
