@@ -36,7 +36,7 @@ function Custom404() {
           })}`}
         </title>
       </Head>
-      <div tw="text-5xl my-20 text-align[center]">
+      <div tw="text-5xl my-20 [text-align:center]">
         404 -{' '}
         {i18next.t('404', {
           ns: 'error',
