@@ -1,3 +1,5 @@
+# i18n white app
+
 > 🔥🔥🔥 
 > Major thanks to [xairoo](https://github.com/xairoo) to setting the stage for the basis of this project
 > Please go check out his white starter app for i18next static rendering [here](https://github.com/xairoo/nextjs-i18n-static-page-starter)!    
