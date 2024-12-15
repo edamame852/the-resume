@@ -18,9 +18,23 @@ export default function About() {
     const profileImageSrc = profilePic; // refactoring description and aboutItems
     const { t } = i18next;
     const description = t('about.description');
+
+    // Birthday Logic added on Dec 15, 2024
+    const birthday = new Date('1998-01-06');
+    const calculateAge = (birthday) => {
+        const today = new Date();
+        let age = today.getFullYear() - birthday.getFullYear();
+        const month = today.getMonth() - birthday.getMonth();
+        if (month < 0 || (month === 0 && today.getDate() < birthday.getDate())) {
+            age--;
+        }
+        return age;
+    };
+    const age = calculateAge(birthday);
+
     const aboutItems = [
         { label: t('about.aboutItems.label.location'), text: t('about.aboutItems.text.location'), Icon: MapIcon },
-        { label: t('about.aboutItems.label.age'), text: '26', Icon: CalendarIcon },
+        { label: t('about.aboutItems.label.age'), text: age.toString(), Icon: CalendarIcon },
         { label: t('about.aboutItems.label.nationality'), text: t('about.aboutItems.text.nationality'), Icon: FlagIcon },
         { label: t('about.aboutItems.label.interests'), text: t('about.aboutItems.text.interests'), Icon: SparklesIcon },
         { label: t('about.aboutItems.label.undergrad'), text: t('about.aboutItems.text.undergrad'), Icon: AcademicCapIcon },
