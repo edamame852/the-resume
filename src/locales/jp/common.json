@@ -96,16 +96,19 @@
       "content": "以下は、長年かけて身につけたスキルです。",
       "languages": {
         "color": {},
+        "name": "言語",
         "first": "英語",
-        "second": {},
-        "third": {},
-        "fourth": {}
+        "second": "広東語",
+        "third": "中国語",
+        "fourth": "台湾語",
+        "fifth": "日本語",
+        "sixth": "スペイン語"
       },
       "frontend": {
         "color": {},
-        "first": {},
-        "second": {},
-        "third": {},
+        "first": "React (リアクト)",
+        "second": "Next.js（ネクストジェイエス）",
+        "third": "Redux（リーダックス)",
         "fourth": {},
         "fifth": {}
       },

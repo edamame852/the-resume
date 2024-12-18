@@ -96,17 +96,21 @@
       "content": "These are my following skills that I've acquired over the years",
       "languages": {
         "color": {},
+        "title": "Languages",
         "first": "English",
-        "second": {},
-        "third": {},
-        "fourth": {}
+        "second": "Cantonese",
+        "third": "Mandarin",
+        "fourth": "Taiwanese/ Hokkien",
+        "fifth": "Japanese",
+        "sixth": "Spanish"
       },
       "frontend": {
         "color": {},
-        "first": {},
-        "second": {},
-        "third": {},
-        "fourth": {},
+        "title": "Frontend development",
+        "first": "ReactJS",
+        "second": "Next.JS",
+        "third": "",
+        "fourth": "",
         "fifth": {}
       },
       "backend": {

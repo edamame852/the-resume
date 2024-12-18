@@ -54,44 +54,48 @@ export default function Resume() {
   // Skills Section
   const skills = [
     {
-      name: skills_section.languages.first,
+      name: skills_section.languages.title,
       skills: [
         {
-          name: 'English',
+          name: skills_section.languages.first,
           level: 10,
         },
         {
-          name: 'Cantonese',
+          name: skills_section.languages.second,
           level: 10,
         },
         {
-          name: 'Mandarin',
+          name: skills_section.languages.third,
           level: 9,
         },
         {
-          name: 'Taiwanese',
+          name: skills_section.languages.fourth,
           level: 5,
         },
         {
-          name: 'Japanese',
-          level: 6,
+          name: skills_section.languages.fifth,
+          level: 7,
         },
+        {
+          name: skills_section.languages.sixth,
+          level: 3,
+        }
       ],
     },
     {
-      name: 'Frontend development',
+      name: skills_section.frontend.title,
       skills: [
         {
-          name: 'React',
-          level: 6,
+          name: skills_section.frontend.first,
+          level: 5,
         },
         {
-          name: 'Nextjs',
-          level: 6,
+          name: skills_section.frontend.second,
+          level: 5,
         },
         {
-          name: 'Redux',
-          level: 6,
+          name: skills_section.frontend.third,
+          level: 4,
         },
         {
           name: 'i18next',
