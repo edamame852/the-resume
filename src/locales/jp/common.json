@@ -96,7 +96,7 @@
       "content": "以下は、長年かけて身につけたスキルです。",
       "languages": {
         "color": {},
-        "name": "言語",
+        "title": "言語",
         "first": "英語",
         "second": "広東語",
         "third": "中国語",

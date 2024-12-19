@@ -54,11 +54,7 @@ export default function Resume() {
   // Skills Section
   const skills = [
     {
-      name: (
-        <p>
-          {skills_section.languages.title}
-        </p>
-      ),
+      name: skills_section.languages.title,
       skills: [
         {
           name: skills_section.languages.first,
