@@ -106,22 +106,25 @@
       },
       "frontend": {
         "color": {},
-        "title": "Frontend development",
+        "title": "Frontend Development",
         "first": "ReactJS",
         "second": "Next.JS",
-        "third": "",
-        "fourth": "",
-        "fifth": {}
+        "third": "Redux",
+        "fourth": "react-i18next",
+        "fifth": "Typescript"
       },
       "backend": {
+        "title": "Backend Development",
         "color": {},
-        "first": {},
-        "second": {}
+        "first": "Java",
+        "second": "Springboot"
       },
       "python": {
+        "title": "Python Development",
         "color": {},
-        "first": {},
-        "second": {}
+        "first": "Python Package Index (PyPI) Releases",
+        "second": "logging module",
+        "third": "pandas"
       },
       "devOps": {
         "color": {},
@@ -129,6 +132,14 @@
         "second": {},
         "third": {},
         "fourth": {}
+      },
+      "life": {
+        "title": "Other Hobbies",
+        "first": "Snowboarding",
+        "second": "Cooking",
+        "third": "Scuba Diving",
+        "fourth": "Engineering",
+        "fifth": "Motorbiking"
       }
     }
   }

@@ -106,21 +106,24 @@
       },
       "frontend": {
         "color": {},
+        "title": "フロント エンド ウェブ開発",
         "first": "React (リアクト)",
         "second": "Next.js（ネクストジェイエス）",
         "third": "Redux（リーダックス)",
-        "fourth": {},
-        "fifth": {}
+        "fourth": "react-i18next (メッセージ文言管理多言語対応のフレームワーク)",
+        "fifth": "Typescript (タイプスクリプト)"
       },
       "backend": {
+        "title": "バックエンド開発",
         "color": {},
-        "first": {},
-        "second": {}
+        "first": "Java（ジャバ)",
+        "second": "Spring Boot 開発"
       },
       "python": {
+        "title": "パイソン開発",
         "color": {},
-        "first": {},
-        "second": {}
+        "first": "PyPIリリース - パイソンサードパーティーソフトウェアリポジトリ",
+        "second": "logging - パイソンのログ記録"
       },
       "devOps": {
         "color": {},

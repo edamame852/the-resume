@@ -98,41 +98,41 @@ export default function Resume() {
           level: 4,
         },
         {
-          name: 'i18next',
+          name: skills_section.frontend.fourth,
           level: 6,
         },
         {
-          name: 'Typescript',
+          name: skills_section.frontend.fifth,
           level: 5,
         },
       ],
     },
     {
-      name: 'Backend development',
+      name: skills_section.backend.title,
       skills: [
         {
-          name: 'Java',
+          name: skills_section.backend.first,
           level: 6,
         },
         {
-          name: 'Springboot',
+          name: skills_section.backend.second,
           level: 6,
         },
       ],
     },
     {
-      name: 'Python Development',
+      name: skills_section.python.title,
       skills: [
         {
-          name: 'Pypi releases',
+          name: skills_section.python.first,
           level: 8,
         },
         {
-          name: 'logger',
+          name: skills_section.python.second,
           level: 5,
         },
         {
-          name: 'Pandas',
+          name: skills_section.python.third,
           level: 8,
         },
         {
