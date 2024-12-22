@@ -136,55 +136,75 @@ export default function Resume() {
           level: 8,
         },
         {
-          name: 'poetry',
+          name: skills_section.python.fourth,
           level: 7,
         },
         {
-          name: 'pytest',
+          name: skills_section.python.fifth,
           level: 7,
         },
         {
-          name: 'tox',
+          name: skills_section.python.sixth,
           level: 7,
         },
       ],
     },
     {
-      name: 'DevOps',
+      name: skills_section.devOps.title,
       skills: [
         {
-          name: 'Github Action',
+          name: skills_section.devOps.first,
           level: 9,
         },
         {
-          name: 'Jenkins',
+          name: skills_section.devOps.second,
           level: 7,
         },
         {
-          name: 'Docker',
+          name: skills_section.devOps.third,
+          level: 6,
+        },
+        {
+          name: skills_section.devOps.fourth,
+          level: 6,
+        },
+        {
+          name: skills_section.devOps.fifth,
+          level: 5,
+        },
+        {
+          name: skills_section.devOps.sixth,
+          level: 5,
+        },
+        {
+          name: skills_section.devOps.seventh,
           level: 6,
         },
       ],
     },
     {
-      name: 'Life',
+      name: skills_section.life.title,
       skills: [
         {
-          name: 'Snowboarding',
+          name: skills_section.life.first,
           level: 7,
         },
         {
-          name: 'Cooking',
-          level: 7,
+          name: skills_section.life.second,
+          level: 6,
         },
         {
-          name: 'Diving',
+          name: skills_section.life.third,
           level: 8,
         },
         {
-          name: <a href="http://www.google.com">{"Auto AV systems (Click me!)"}</a>,
-          level: 8,
+          name: <a href="http://www.google.com">{skills_section.life.fourth + "(Click me!)"}</a>,
+          level: 6,
         },
+        {
+          name: skills_section.life.fifth,
+          level: 6,
+        }
       ],
     },
   ];

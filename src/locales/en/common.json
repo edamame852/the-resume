@@ -124,14 +124,21 @@
         "color": {},
         "first": "Python Package Index (PyPI) Releases",
         "second": "logging module",
-        "third": "pandas"
+        "third": "pandas",
+        "fourth": "poetry",
+        "fifth": "pytest",
+        "sixth": "tox"
       },
       "devOps": {
         "color": {},
-        "first": {},
-        "second": {},
-        "third": {},
-        "fourth": {}
+        "title": "DevOps",
+        "first": "Github Actions",
+        "second": "Jenkins",
+        "third": "Docker",
+        "fourth": "k8s/kubenetes (kubectl)",
+        "fifth": "Mirantis Secure Registry",
+        "sixth": "Harbor Registry",
+        "seventh": "Azure (microservices)"
       },
       "life": {
         "title": "Other Hobbies",

@@ -123,14 +123,30 @@
         "title": "パイソン開発",
         "color": {},
         "first": "PyPIリリース - パイソンサードパーティーソフトウェアリポジトリ",
-        "second": "logging - パイソンのログ記録"
+        "second": "logging - パイソンのログ記録",
+        "third": "pandas - データ解析ライブラリ",
+        "fourth": "poetry (ポエトリー) - Pythonのライブラリ管理とパッケージング",
+        "fifth": "pytest (パイテスト) - Pythonのテストフレームワーク",
+        "sixth": "tox (トックス) - プロジェクトのテストを自動化ツール"
       },
       "devOps": {
         "color": {},
-        "first": {},
-        "second": {},
-        "third": {},
-        "fourth": {}
+        "title": "DevOps(ソフトウェア開発運用)",
+        "first": "Github Actions (GitHubリポジトリワークフロー自動化ツール)",
+        "second": "Jenkins (ジェンキンス)",
+        "third": "Docker (環境構築/作成)",
+        "fourth": "k8s/kubenetes (クバネティス)",
+        "fifth": "Mirantis Secure Registry (ミランティスイメージ登録)",
+        "sixth": "Harbor Registry (ハーバーイメージ登録)",
+        "seventh": "Azure (アジュール)"
+      },
+      "life": {
+        "title": "他の趣味",
+        "first": "スノーボード",
+        "second": "料理",
+        "third": "スキューバダイビング",
+        "fourth": "工学",
+        "fifth": "モーターバイク"
       }
     }
   }
