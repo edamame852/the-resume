@@ -1,3 +1,8 @@
+# High level overview
+1. Entry point: `src/pages/[lang]/index.js`
+2. Every RC files under `<Page>`
+3. New FC "sections" gets added into `src/components/Sections`
+
 # i18n white app
 
 > 🔥🔥🔥 
@@ -40,19 +45,17 @@ Clone the repository and run `npm ci` (recommend) or `npm install`.
 - Locales are located in `/src/locales/`
   - To prevent mess, you can split the `.json` translation file(s) into multiple namespaces
 
-## Development
+## Developing in dev - locally hosting on port3000
 
-Run `npm run dev` to start the development server on [http://localhost:3000](http://localhost:3000).  
+Run **`npm run dev`** to start the development server on [http://localhost:3000](http://localhost:3000).  
 Visit [http://localhost:3000](http://localhost:3000) to view this starter.
 
-## Build and Export Static Pages
+## Build and Export Static Pages (locally or via CICD)
 
 ```bash
 npm run export
 ```
 
-## Test/Serve the Site Locally
+## ~~Test/Serve the Site Locally~~ (This doesn't work locally)
 
-```bash
-npm run serve
-```
+~~`npm run serve`~~

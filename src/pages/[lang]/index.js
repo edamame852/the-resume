@@ -8,6 +8,7 @@ import About from '../../components/Sections/About';
 import Page from '../../components/Layout/Page';
 import Resume from '../../components/Sections/Resume';
 import Header from '../../components/Sections/Header';
+import Portfolio from '../../components/Sections/Portfolio/Portfolio';
 
 export default function LangIndex({ language }) {
   const { t } = i18next;
@@ -18,6 +19,7 @@ export default function LangIndex({ language }) {
       <Background />
       <About />
       <Resume />
+      <Portfolio />
     </Page>
 
 
