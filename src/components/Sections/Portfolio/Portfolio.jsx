@@ -144,7 +144,8 @@ const ItemOverlay = ({ item: { url, title, description } }) => {
       href={url}
       onClick={handleItemClick}
       ref={linkRef}
-      target="_blank">
+      target="_blank"
+      rel="noreferrer">
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto overscroll-contain">
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
