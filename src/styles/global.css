@@ -1218,8 +1218,8 @@ body {
 }
 
 .gap-x-2 {
-  -moz-column-gap: .5rem;
-  column-gap: .5rem
+  -moz-column-gap: .2rem;
+  column-gap: .2rem
 }
 
 .gap-x-4 {

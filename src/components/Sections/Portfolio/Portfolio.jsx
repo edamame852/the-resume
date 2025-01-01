@@ -121,7 +121,7 @@ const ItemOverlay = ({ item: { url, title, description } }) => {
     if (isMobile) {
       setMobile(true);
     }
-  }, []);
+  }, [isMobile]);
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
 
   const handleItemClick = useCallback(
