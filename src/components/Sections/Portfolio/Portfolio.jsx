@@ -14,23 +14,23 @@ export default function Portfolio() {
   const { t } = i18next;
   const portfolioItems = [
     {
-      title: 'Project title 1',
-      description: 'Give a short description of your project here.',
-      url: 'https://reactresume.com',
+      title: 'Python lib (PyPI) - mlpytools',
+      description: '<Beta version> Applying machine learning algorithms via python',
+      url: 'https://pypi.org/project/mlpytools/',
       image: porfolioImage1,
     },
     {
-      title: 'Project title 2',
-      description: 'Give a short description of your project here.',
-      url: 'https://reactresume.com',
+      title: 'Jekyll docs hosted by github pages',
+      description: 'My personal note taking website',
+      url: 'https://edamame852.github.io/the-docs/',
       image: porfolioImage2,
     },
-    {
-      title: 'Project title 3',
-      description: 'Give a short description of your project here.',
-      url: 'https://reactresume.com',
-      image: porfolioImage3,
-    },
+    // {
+    //   title: 'Project title 3',
+    //   description: 'Give a short description of your project here.',
+    //   url: 'https://reactresume.com',
+    //   image: porfolioImage3,
+    // },
     // {
     //   title: 'Project title 4',
     //   description: 'Give a short description of your project here.',
@@ -84,7 +84,7 @@ export default function Portfolio() {
     <>
       <Section className="bg-neutral-800" sectionId="portfolio">
         <div className="flex flex-col gap-y-8">
-          <h2 className="self-center text-xl font-bold text-white">Check out some of my work</h2>
+          <h2 className="self-center text-xxl font-bold text-white">My Current Coding Projects</h2>
           <div className=" w-full columns-2 md:columns-3 lg:columns-4">
             {portfolioItems.map((item, index) => {
               const { title, image } = item;
