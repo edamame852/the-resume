@@ -25,12 +25,12 @@ export default function Portfolio() {
       url: 'https://edamame852.github.io/the-docs/',
       image: porfolioImage2,
     },
-    // {
-    //   title: 'Project title 3',
-    //   description: 'Give a short description of your project here.',
-    //   url: 'https://reactresume.com',
-    //   image: porfolioImage3,
-    // },
+    {
+      title: 'Project title 3',
+      description: 'Live demo of my personal Next.js resume website',
+      url: 'https://edamame852.github.io/the-resume/jp',
+      image: porfolioImage3,
+    },
     // {
     //   title: 'Project title 4',
     //   description: 'Give a short description of your project here.',
