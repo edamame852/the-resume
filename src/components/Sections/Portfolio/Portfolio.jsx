@@ -26,7 +26,7 @@ export default function Portfolio() {
       image: porfolioImage2,
     },
     {
-      title: 'Project title 3',
+      title: 'i18n Next.js personal porfolio',
       description: 'Live demo of my personal Next.js resume website',
       url: 'https://edamame852.github.io/the-resume/jp',
       image: porfolioImage3,
